@@ -1,0 +1,505 @@
+*{
+    -webkit-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: none;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    background-color: #F6F4EF;
+}
+
+.wrapper {
+    width: 95%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Color Theme
+   =================== */
+
+.header-container {
+    border-bottom: 0.1em solid #C6BCB9;
+    box-shadow: 5em 5em 5em #002;
+    margin-bottom: 0.5em;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #8C8685;
+}
+
+.header-container{
+    background: #ECE6E5;
+    background: linear-gradient(#8C8685,#ECE6E5);
+}
+.footer-container,
+.main aside {
+    background: #ECE6E5;
+}
+
+.title {
+    color: #642518;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: inline;
+    margin-bottom: 10px;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    opacity: 90%;
+    font-weight: bold;
+    color: black;
+    background: #D6BEB9
+    box-shadow: 0.25em -0.25em 1.0em #002;
+    border-radius: 0.2em;
+}
+
+nav a:hover,
+nav a:visited {
+    box-shadow: 0.2em 0.25em 1em #002;
+
+}
+
+nav a:hover {
+    text-decoration: none;
+    transition: box-shadow 0.35s ease-in-out;
+
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+
+    padding: 30px 0 ;
+    
+}
+
+.main article h2{
+
+    font-size: 1.4em;
+
+}
+
+.main aside {
+    color: black;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: black;
+    padding: 10px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.main aside:hover{
+    box-shadow: 0.25em 0.25em 1em #002;
+    transition: all 0.35s ease-in-out;
+    width:29%;
+     
+}
+.main-container .img-container{
+    
+    margin-top: 0;
+    background-image:url(https://internshala.com/static/images/home/background-1300.jpg);
+    height: 18em;
+    width: 100%;
+}
+.main-container .img-container h1{
+    margin:0;
+    text-align: center;
+    padding: 1em;
+    text-shadow: 0.25em 0.25em 1em #002;
+}
+
+.main-container .img-container h1:hover{
+    box-shadow: 0.4em 0.4em 1em #002;
+    transition: box-shadow 0.35s;
+}
+.header-container h1{
+    text-shadow: 0.25em 0.25em 1em #002;
+    color:black;
+}
+.header-container h1:hover{
+   box-shadow: 0.4em 0.4em 1em #002;
+    transition: box-shadow 0.35s; 
+}
+.main-container input{
+    width: 80%;
+    padding: .7em;
+    margin: .2em 0;
+    box-sizing: border-box;
+    align-self: center;
+    opacity: .6;
+}
+.main-container .position{
+    
+    width:50%;
+    margin: auto; 
+}
+.main-container button{
+
+    background-color: #A0D0DE;
+    /*border-radius: 1em;*/
+    color: black;
+    padding:.1em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50%;
+    margin: .2em .1em;
+    cursor: pointer;
+    width: 20%;
+    height: 10%;
+    opacity: 0.7;
+}
+.main-container button:hover{
+    box-shadow: 0.4em 0.4em 1em #002;
+    transition: box-shadow 0.35s;  
+}
+.main-container input:hover{
+     box-shadow: 0.4em 0.4em 1em #002;
+    transition: box-shadow 0.35s;   
+}
+.main article a{
+    border: 0.1em;
+    padding: 0.2em;
+    color: #7C7564;
+    text-decoration: none;
+    margin: auto;
+
+}
+.main .blog1{
+    padding: .5em;
+    margin:.5em;
+}
+.main .blog2{
+    padding: .5em;
+    margin: .5em;
+}
+.main .outer-blog{
+    background-color: #E1DDD2;
+    box-shadow: 0.3em -0.6em 0.5em #E1DDD2;
+}
+.footer-container .abt-right{
+    width:30%;
+    float: right; 
+}
+.footer-container .abt-left{
+    width: 40%;
+    float: left;
+}
+.footer-container a{
+    font-size: 0.8em;
+    margin:.6em;
+    padding: .5em;
+    color:#1A1A18;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 22%;
+        height: 12%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+    
+    .main-container button{
+        text-overflow: ellipsis;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+  
+
+    nav {
+        float: right;
+        width: 55%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 70%;
+    }
+
+    .main aside {
+        margin:1em 0 3em 0;
+        padding:0.5em;
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
